@@ -1,5 +1,5 @@
 # Thesis
-Web fingerprinting using Tor
+Web fingerprinting using Tor- //
 This project focuses in identifying the type of users, inspecting the network traffic of the Tor browser using tools like dumpcap to parse the traffic and t-shark to analyse the traffic.
 This involves in collecting a wide range of URLs in different settings such as performing actions using various Tor browser versions, redirecting the pages, clicking on the buttons or links. which helps in creating a difference in the Network traffic that is being collected.
 Ideas collecting wide-variety of data:
