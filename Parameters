@@ -1,0 +1,28 @@
+Parameters to be considered \:
+- browser versions :firefox - -
+- New alphs release 13.59a
+- Tor browser 13.0.16
+- 13.5a8
+- 13.0.15
+- check with the major updates between browser versions and shortlist them accordingly.
+Modes in Tor browser :
+-java script enabled
+-js disabled
+-using tor proxy
+- non-tor browsing
+Operating system :
+-windows( 10, 11 )
+- macOS ( Big sur, Monterey)
+- Linux ( Ubuntu, Fedora)
+User Agent Strings
+-Customize UAS to mimic different devices and browsers.
+Screen resolution and window size
+1920*1080, 1366*768
+window sizes // half and full
+Browsing Mode
+- incogito enabled and disabled
+Network conditions
+- different IP addresses
+- Different geographic locations
+- Different network speeds ( simulated slow networks)
+
