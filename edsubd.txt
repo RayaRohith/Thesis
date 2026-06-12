@@ -7,3 +7,4 @@ outlook.ed.ac.uk.com
 owa.ed.ac.uk.com
 remote.ed.ac.uk.com
 webmail.ed.ac.uk.com
+ed.ac.uk.com
