@@ -4,7 +4,7 @@ import os
 LOG_PREFIX = 'webfp'
 
 
-def reset_logger(logger):
+def reset_logger(logger):    #since at each stage we will be clearning logs to update with the new set of crawling
     """Remove all the handlers for a logger."""
     for handler in logger.handlers:
         if isinstance(handler, logging.FileHandler):
