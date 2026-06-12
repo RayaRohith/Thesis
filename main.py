@@ -5,7 +5,7 @@ from time import sleep
 
 from dumputils import utils
 from common import DEFAULT_FILTER
-#from utils import 
+#from utils import.
 
 i, url = sys.argv[1:3]
 print(f'Visit {i} to {url}')
