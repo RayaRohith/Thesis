@@ -18,7 +18,6 @@ middleware.bbcx.api.bbc.com
 belfrage.api.bbc.com
 bruce.belfrage.api.bbc.com
 bryan.belfrage.api.bbc.com
-cedric.belfrage.api.bbc.com
 james.belfrage.api.bbc.com
 joan.belfrage.api.bbc.com
 joyce.belfrage.api.bbc.com
