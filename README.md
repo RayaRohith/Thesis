@@ -234,9 +234,14 @@ Raya Rohith Yadav
 
 MSc Cyber Security, Privacy and Trust
 University of Edinburgh
-
 LinkedIn: [https://www.linkedin.com/in/raya-rohith-yadav-b71206204/]
 Portfolio: [https://rayarohith.github.io/]
+
+#Co-Author
+Marc Juraez
+Supervisor, School of Informatics
+https://mjuarezm.github.io/
+University ofo Edinburgh
 
 ---
 
