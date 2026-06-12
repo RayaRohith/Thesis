@@ -235,8 +235,8 @@ Raya Rohith Yadav
 MSc Cyber Security, Privacy and Trust
 University of Edinburgh
 
-LinkedIn: [Add Link]
-Portfolio: [Add Link]
+LinkedIn: [https://www.linkedin.com/in/raya-rohith-yadav-b71206204/]
+Portfolio: [https://rayarohith.github.io/]
 
 ---
 
