@@ -3,7 +3,7 @@ import sys
 import glob
 import traceback
 
-
+#check previous code to adjust the tshark script
 REMOVE_RETRANSMISSIONS = True
 USE_TSHARK_TCP_PAYLOAD = False
 SKIP_MALFORMED = True
