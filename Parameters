@@ -1,28 +1,127 @@
-Parameters to be considered \:
-- browser versions :firefox - -
-- New alphs release 13.59a
-- Tor browser 13.0.16
-- 13.5a8
-- 13.0.15
-- check with the major updates between browser versions and shortlist them accordingly.
-Modes in Tor browser :
--java script enabled
--js disabled
--using tor proxy
-- non-tor browsing
-Operating system :
--windows( 10, 11 )
-- macOS ( Big sur, Monterey)
-- Linux ( Ubuntu, Fedora)
-User Agent Strings
--Customize UAS to mimic different devices and browsers.
-Screen resolution and window size
-1920*1080, 1366*768
-window sizes // half and full
-Browsing Mode
-- incogito enabled and disabled
-Network conditions
-- different IP addresses
-- Different geographic locations
-- Different network speeds ( simulated slow networks)
+## Experimental Parameters
 
+The targeted fingerprinting framework was designed to evaluate how different client-side configurations influence Tor Browser traffic patterns. Parameters were varied independently to isolate their effect on encrypted network traces.
+
+### 1. Browser Versions
+
+To evaluate robustness across software updates, experiments were conducted using multiple Tor Browser releases:
+
+| Browser Version     | Purpose                   |
+| ------------------- | ------------------------- |
+| Tor Browser 13.0.15 | Baseline stable release   |
+| Tor Browser 13.0.16 | Minor update comparison   |
+| Tor Browser 13.5a8  | Alpha release evaluation  |
+| Tor Browser 13.5.9a | New alpha release testing |
+
+Browser versions were selected based on significant changes to rendering behaviour, networking components, and privacy mechanisms.
+
+---
+
+### 2. JavaScript Configuration
+
+JavaScript execution significantly affects page rendering and resource loading behaviour.
+
+| Configuration       |
+| ------------------- |
+| JavaScript Enabled  |
+| JavaScript Disabled |
+
+---
+
+### 3. Routing Mode
+
+Traffic was collected under both anonymous and non-anonymous browsing conditions.
+
+| Mode                                 |
+| ------------------------------------ |
+| Tor Network (SOCKS Proxy)            |
+| Direct Internet Connection (Non-Tor) |
+
+---
+
+### 4. Operating System Environment
+
+Experiments were conducted across multiple operating systems to evaluate platform-specific traffic characteristics.
+
+| Platform | Versions               |
+| -------- | ---------------------- |
+| Windows  | Windows 10, Windows 11 |
+| macOS    | Big Sur, Monterey      |
+| Linux    | Ubuntu, Fedora         |
+
+---
+
+### 5. User-Agent Profiles
+
+User-Agent strings were modified to simulate different browser and device identities.
+
+Examples include:
+
+* Default Tor Browser User-Agent
+* Firefox Desktop
+* Chrome Desktop
+* Alternative Device Profiles
+
+This allowed investigation of server-side content adaptation and its impact on traffic fingerprints.
+
+---
+
+### 6. Screen Resolution and Window Size
+
+Display settings influence responsive web content and resource delivery.
+
+#### Screen Resolutions
+
+| Resolution  |
+| ----------- |
+| 1920 × 1080 |
+| 1366 × 768  |
+
+#### Window States
+
+| Window Mode    |
+| -------------- |
+| Full Screen    |
+| Half Screen    |
+| Resized Window |
+
+---
+
+### 7. Browsing Mode
+
+Private browsing behaviour was evaluated as an additional fingerprinting factor.
+
+| Mode                         |
+| ---------------------------- |
+| Normal Browsing              |
+| Incognito / Private Browsing |
+
+---
+
+### 8. Network Conditions
+
+To assess resilience under realistic environments, traffic was collected under varying network conditions.
+
+#### Geographic Diversity
+
+* Multiple IP Addresses
+* Multiple Geographic Regions
+
+#### Network Performance
+
+* Standard Broadband
+* Simulated Slow Connections
+* Variable Network Latency Conditions
+
+---
+
+## Experimental Design
+
+To maintain scientific validity, only one parameter was varied at a time while all other settings remained fixed. This parameter isolation strategy ensured that any observed differences in network traffic could be attributed directly to the configuration under investigation.
+
+The resulting datasets were used to evaluate both:
+
+1. Traditional Website Fingerprinting (Website Classification)
+2. Targeted Configuration Fingerprinting (Client Configuration Classification)
+
+This methodology enabled systematic analysis of how browser settings, operating systems, network environments, and software versions contribute to traffic fingerprinting attacks against Tor users.
