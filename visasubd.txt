@@ -7,7 +7,6 @@ www.visa.com
 30809-OCE-Trialpay.visa.com
 34503-occ-wsimte-pssl.visa.com
 39690-oce-wsimte-pssl.visa.com
-3ds2.visa.com
 41987-vdpwsi.visa.com
 63487-occ-wsimte-mssl.visa.com
 72050-oce-wsi-mssl.visa.com
