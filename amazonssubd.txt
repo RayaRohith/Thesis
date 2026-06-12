@@ -42,9 +42,6 @@ aiv-eu-blr-dev.amazon.com
 aiv-lrc-blr-gamma.amazon.com
 aiv-lrc-blr-gamma-qa.amazon.com
 alexa.amazon.com
-alx-inbound-eu.amazon.com
-amapedia.amazon.com
-amarillo.amazon.com
 amazonpayments.amazon.com
 ams.amazon.com
 ap-email.amazon.com
