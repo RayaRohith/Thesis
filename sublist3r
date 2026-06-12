@@ -1,5 +1,5 @@
 To Gather subdomains using sublist3r
-# Install sublist3r
+# Install sublist3r.
 pip install sublist3r
 
 # Run sublist3r to gather subdomains for example.com
