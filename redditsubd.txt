@@ -15,4 +15,4 @@ www.tls-test-1.reddit.com
 tls-test-2.reddit.com
 vip.reddit.com
 www.vip.reddit.com
-www--reddit.com
+www.reddit.com
