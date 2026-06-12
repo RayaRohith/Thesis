@@ -1,5 +1,5 @@
 
-import sys
+import sys #alltogether
 
 for f in os.listdir(sys.argv[1]):
     fpath = os.path.join(sys.argv[1], f)
