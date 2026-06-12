@@ -9,7 +9,7 @@ from scapy.all import PcapReader, wrpcap
 import psutil
 from pyvirtualdisplay import Display
 
-#import common as cm- it is redfundant
+#import common as cm- it is redfundant.
 
 
 def create_dir(dir_path):
