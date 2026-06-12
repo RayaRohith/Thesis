@@ -3,7 +3,7 @@ import subprocess
 import time
 import psutil
 
-from shutil import move # added move for potential use in filter_tshark
+from shutil import move # added move for potential use in filter_tshark if needed
 import common as cm
 import utils as ut
 from log import wl_log
